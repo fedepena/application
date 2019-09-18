@@ -1,0 +1,992 @@
+<!DOCTYPE html><html lang="en"><head>
+
+  <meta charset="utf-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta name="robots" content="noindex">
+
+  <meta name="googlebot" content="noindex">
+
+  
+<meta name="csrf-token" content="A22fajPFJztuGdNWA9jHqtRxgdDEXUV2DIcTrKTQ" id="_token">
+
+
+  <title>myabakus-&gt;income_payments</title>
+
+  
+  <script type="text/javascript" async="" src="https://js.driftt.com/include/1568850000000/33c7h6tzniik.js"></script><script type="text/javascript">Date.FORMAT='%d/%m/%Y';Date.TODAY='18/09/2019';Number.FORMAT=',';Number.DECIMALS=2;</script>
+
+  
+  
+<link href="http://www.myabakus.org/css/app/payments.css" rel="stylesheet" type="text/css">
+
+
+<style type="text/css"></style><link rel="stylesheet" href="custom.css"></head>
+
+<body style="visibility:hidden">
+
+  <div id="app" class="macOsx">
+
+    <div id="header">
+
+      
+      <div class="header-content">
+
+        <div class="header-group">
+  <div class="header-text">
+        <span class="header-company text-ellipsis">Nomad Web Ventures</span>
+    <svg class="header-ico" id="help"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#help"></use></svg>
+
+<div id="select-help" class="custom-select" style="display: none;">
+    <ul class="select-content">
+                    <li class="option trackDemo" value="5">Demo company</li>
+        
+        <li class="option" value="4">Getting Started Course</li>
+
+        <li class="option" value="2">Video Tutorials</li>
+
+        <li class="option" value="3">FAQs</li>
+
+        
+        <li class="option" value="1">Contact Us</li>
+
+            </ul>
+</div>
+  </div>
+</div>
+
+<div class="header-group">
+  <div class="header-text">
+    <svg class="menu-ico" id="menu_ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#menu"></use></svg>
+    <div class="header-menu"><a href="http://www.myabakus.org/app/dashboard">Home</a>     <span class="header-bread">&gt;</span> <a href="http://www.myabakus.org/app/customers">Customers</a>     <span class="header-bread">&gt;</span> Payments    </div>
+  </div>
+  <div class="header-text">
+    <a class="header-local" id="local_switch" data-current="10">USD - FP</a>
+<div id="select-local_switch" class="custom-select" style="display: none; min-width: 100px">
+  <ul class="select-content">
+  </ul>
+</div>
+<a id="perfil" class="header-user" href="http://www.myabakus.org/app/users/6575/quick_edit">Federico</a><svg class="header-ico" id="user"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#user"></use></svg>
+<div id="select-perfil" class="custom-select" style="display: none; min-width: 100px">
+    <ul class="select-content">
+                <li class="option" value="1">perfil</li>
+                        <li class="option" value="2">Setting</li>
+                <li class="option" value="3">Logout</li>
+    </ul>
+</div>
+  </div>
+</div>
+
+      </div>
+
+      <div id="menu">
+
+
+  <div class="menu-group">
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Customers</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/income" class="menu-link link-child">Income</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/income/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/income_payments" class="menu-link link-child                menu-active">Payments</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/income_payments/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/customers" class="menu-link link-child">List</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/customers/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+          </ul>
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Suppliers</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/expense" class="menu-link link-child">Expenses</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/expense/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/expense_payments" class="menu-link link-child">Payments</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/expense_payments/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/suppliers" class="menu-link link-child">List</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/suppliers/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+          </ul>
+
+    
+  </div>
+
+
+  <div class="menu-group">
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Cash</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/cash" class="menu-link link-child">Balances</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/cash_transactions" class="menu-link link-child">Transactions</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/cash_adjustments" class="menu-link link-child">Adjustments</a>
+                        </li>
+          </ul>
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Inventory</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/inventory" class="menu-link link-child">Quantities</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/inventory_adjustments" class="menu-link link-child">Adjustments</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/inventory_transfers" class="menu-link link-child">Transfers</a>
+                        </li>
+          </ul>
+
+    
+  </div>
+
+
+  <div class="menu-group">
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Items</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/items/prices" class="menu-link link-child">Prices</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/items/suppliers" class="menu-link link-child">Suppliers</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/items" class="menu-link link-child">List</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/items/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+          </ul>
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Taxes</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/taxes" class="menu-link link-child">Balances</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/taxes_payments" class="menu-link link-child">Payments</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/taxes_expenses" class="menu-link link-child">Expenses</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/taxes_adjustments" class="menu-link link-child">Adjustments</a>
+                        </li>
+          </ul>
+
+    
+  </div>
+
+
+  <div class="menu-group">
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Reports</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/income_reports" class="menu-link link-child">Income</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/receivable_reports" class="menu-link link-child">Receivable</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/expense_reports" class="menu-link link-child">Expenses</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/payable_reports" class="menu-link link-child">Payable</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/profit_reports" class="menu-link link-child">Profit</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/cash_reports" class="menu-link link-child">Cash flow</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/inventory_reports" class="menu-link link-child">Inventory</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/reports/taxes" class="menu-link link-child">Taxes</a>
+                        </li>
+          </ul>
+
+    
+  </div>
+
+
+
+</div>
+
+    </div>
+
+    <div id="container">
+
+      <div id="body" class="">
+<div id="left">
+
+  <div class="layer">Find a payment typing its invoice, reference or customer</div>
+
+  <form action="http://www.myabakus.org/app/income_payments/find">
+
+    <div id="find">
+
+      <input name="name" id="name" placeholder="Press enter to search" autocomplete="off">
+
+      <span id="indicator" style="display: none;"></span>
+
+      <div class="filter">Payments: <a id="fire-filter">All<span class="select-fire">&nbsp;</span></a>
+
+        <div id="select-filter" class="custom-select" style="display: none;">
+
+          <ul class="select-content">          <li class="option                     selected" value="0">All          </li>          <li class="separator"></li>          <li class="option" value="TT">Today          </li>          <li class="option" value="TW">This Week          </li>          <li class="option" value="TM">This Month          </li>          <li class="option" value="TY">This Year          </li>          <li class="separator"></li>          <li class="option" value="R">Refunds          </li>          <li class="separator"></li>          <li class="option" value="S">Search...          </li>          </ul>
+        </div>
+
+        <input type="hidden" id="filter" name="filter" value="0">
+      </div>
+
+      <input type="hidden" name="location_id" id="location_id" value="10">
+
+      <div id="win-search" class="wd-wrapper" style="display: none"></div>
+
+    </div>
+
+  </form>
+
+  <div id="output" class="table_wrapper"><table class="list" id="list">
+
+  <thead>
+
+    <tr>
+
+      <th class="th pmt-ref1 ">Number</th>
+
+      <th class="th pmt-date">Date</th>
+
+      <th class="th pmt-ref2">Reference</th>
+
+      
+      <th class="th pmt-user">User</th>
+
+      
+      <th class="th pmt-contact">Customer</th>
+
+      <th class="th pmt-invoice">Invoice</th>
+
+      <th class="th pmt-amount">Amount</th>
+
+      <th class="th"></th>
+
+    </tr>
+
+  </thead>
+
+  
+  <tbody>    <tr class="odd">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10947/edit" class="edit">RC-3391</a>
+      </td>
+
+      <td class="td pmt-date">24/08/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/247">Carichem</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8204">I-3800</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10947">20.00
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="even">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10919/edit" class="edit">RC-3386</a>
+      </td>
+
+      <td class="td pmt-date">16/08/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/399" title="Manejo de Cuentas Lic. Enrique Barreda">Manejo de Cuentas L...</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8186">I-3791</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10919">270.00
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="odd">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10915/edit" class="edit">RC-3384</a>
+      </td>
+
+      <td class="td pmt-date">16/08/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/545">Golden Gate Snack</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8185">I-3790</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10915">49.86
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="even">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10895/edit" class="edit">RC-3381</a>
+      </td>
+
+      <td class="td pmt-date">13/08/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/410">Futregio II</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8173">I-3786</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10895">30.00
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="odd">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10894/edit" class="edit">RC-3380</a>
+      </td>
+
+      <td class="td pmt-date">13/08/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/414" title="Dora Quiceno - Centro Neuropsicologico">Dora Quiceno - Cent...</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8153">I-3780</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10894">22.50
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="even">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10892/edit" class="edit">RC-3379</a>
+      </td>
+
+      <td class="td pmt-date">12/08/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/222">Seoriginal</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8152">I-3779</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10892">256.50
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="odd">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10878/edit" class="edit">RC-3377</a>
+      </td>
+
+      <td class="td pmt-date">11/08/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Federico Pena">Federico</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/528">Megacellcom</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8165">I-3785</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10878">50.00
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="even">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10875/edit" class="edit">RC-3376</a>
+      </td>
+
+      <td class="td pmt-date">10/08/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/520">Inalquim srl</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8154">I-3781</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10875">77.86
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="odd">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10836/edit" class="edit">RC-3370</a>
+      </td>
+
+      <td class="td pmt-date">30/07/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/434" title="DreamArt Photography Jamaica">DreamArt Photograph...</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8130">I-3770</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10836">25.00
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="even">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10808/edit" class="edit">RC-3363</a>
+      </td>
+
+      <td class="td pmt-date">24/07/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/247">Carichem</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8062">I-3749</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10808">20.00
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="odd">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10775/edit" class="edit">RC-3357</a>
+      </td>
+
+      <td class="td pmt-date">17/07/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/572">PlastiDiseños</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8086">I-3756</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10775">177.48
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="even">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10776/edit" class="edit">RC-3358</a>
+      </td>
+
+      <td class="td pmt-date">16/07/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/545">Golden Gate Snack</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8089">I-3757</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10776">49.86
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="odd">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10767/edit" class="edit">RC-3354</a>
+      </td>
+
+      <td class="td pmt-date">15/07/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/416">Pronus S.A.S</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8079">I-3753</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10767">165.00
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="even">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10753/edit" class="edit">RC-3350</a>
+      </td>
+
+      <td class="td pmt-date">13/07/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Diana Franco">Diana</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/410">Futregio II</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8075">I-3751</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10753">30.00
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+        <tr class="odd">
+
+      <td class="td pmt-ref1">
+        <a href="http://www.myabakus.org/app/income_payments/10749/edit" class="edit">RC-3349</a>
+      </td>
+
+      <td class="td pmt-date">11/07/19
+      </td>
+
+      <td class="td pmt-ref2" title="">
+      </td>
+
+      
+      <td class="td pmt-user" title="Federico Pena">Federico</td>
+
+      
+      <td class="td pmt-contact">
+
+        <a href="http://www.myabakus.org/app/customers/528">Megacellcom</a>
+
+      </td>
+
+      <td class="td pmt-invoice"><a href="http://www.myabakus.org/app/income/8067">I-3750</a>
+      </td>
+
+      <td class="td pmt-amount">
+        <a href="http://www.myabakus.org/app/income_payments/10749">50.00
+        </a>
+
+      </td>
+
+      <td class="td-action">
+
+        <a class="icon-action select-fire" delete="1" open="1"></a>
+      </td>
+
+    </tr>
+
+    
+  </tbody>
+
+</table>
+
+        <div id="paginate">
+            <div class="pg-left">
+              <span>15...</span> Payments            </div>            <div class="pg-right">                  <span>First page</span> | <a class="pg-next">Next page</a>            </div>        </div>
+
+        <input type="hidden" name="pg" id="pg" value="0">
+        <input type="hidden" id="rows" value="15"></div>
+
+</div>
+
+<div id="right">
+
+  <div class="layer">Actions</div>
+
+  <ul class="actions">
+
+    <li>
+
+      <a href="http://www.myabakus.org/app/income_payments/new" id="new">New payment</a>
+
+    </li>
+
+    <li>
+
+      <a href="http://www.myabakus.org/app/income_refunds/new" id="refund">New refund</a>
+
+    </li>
+    <!--
+
+    <li>
+
+      <a href="/app/cash_reports">View cash flow report</a>
+
+    </li>
+
+    <li>
+
+      <a href="/app/receivable_reports">View receivable report</a>
+
+    </li>
+
+    -->
+  </ul>
+
+  
+  <div class="layer">Showing</div>
+
+  <ul class="actions" id="view_by">
+
+    <li>
+  <a id="fire-location">USD - FP<span class="select-fire">&nbsp;</span></a>
+  <div id="select-location" class="custom-select" style="display: none;">
+    <ul class="select-content">      <li class="option" value="0">All locations      </li>      <li class="option          selected" value="10">USD - FP      </li>      <li class="option" value="11">COP - DF/LM      </li>      <li class="option" value="12">USD - NWV      </li>    </ul>
+  </div>
+</li>
+
+  </ul>
+
+  
+</div>
+</div>
+
+    </div>
+
+  </div>
+
+  
+<script type="text/javascript">
+
+
+var APP_CHAT = {
+  id: '33c7h6tzniik',
+  identify:7152,
+  properties: {
+    companyId: 7152,
+    name:'Federico Pena',
+    displayName: 'Federico',
+    email:'federico@myabakus.com',
+    phoneNumber:'+571',
+    company:'Nomad Web Ventures',
+    transaction: 6996,
+    use_days: 1388,
+    language: 'en',
+    country_code: 'US',
+    last_inserted: 1566816534000,
+    status: 'promotional'
+  }
+};
+!function(){var t;if(t=window.driftt=window.drift=window.driftt||[],!t.init)return t.invoked?void(window.console&&console.error&&console.error("Drift snippet included twice.")):(t.invoked=!0,t.methods=["identify","config","track","reset","debug","show","ping","page","hide","off","on"],t.factory=function(e){return function(){var n;return n=Array.prototype.slice.call(arguments),n.unshift(e),t.push(n),t}},t.methods.forEach(function(e){t[e]=t.factory(e)}),t.load=function(t){var e,n,o,i;e=3E5,i=Math.ceil(new Date/
+e)*e,o=document.createElement("script"),o.type="text/javascript",o.async=!0,o.crossorigin="anonymous",o.src="https://js.driftt.com/include/"+i+"/"+t+".js",n=document.getElementsByTagName("script")[0],n.parentNode.insertBefore(o,n)})}();drift.SNIPPET_VERSION="0.3.1";
+(function (drift) {
+drift.config({
+ locale: 'en'
+});
+drift.identify(APP_CHAT.identify, APP_CHAT.properties);
+drift.load(APP_CHAT.id);
+})(drift);
+
+</script>
+
+
+
+  
+<script type="text/javascript" src="http://www.myabakus.org/js/app/income_payments.js"></script><div class="auto_complete" id="auto_complete" style="display: none;"></div>
+
+
+
+
+
+<div id="drift-widget-container" style="position: absolute; z-index: 2147483647;"><iframe id="drift-widget" src="https://js.driftt.com/deploy/assets/index.html" title="Drift Messenger" role="complementary" class="drift-widget-welcome-away" style="border: none; display: block; height: 76px !important; width: 76px !important; position: fixed; top: auto; left: auto; bottom: 24px; right: 24px; visibility: visible; z-index: 2147483647; max-height: 100vh; max-width: 100vw; transition: none 0s ease 0s; background: none transparent; opacity: 1; pointer-events: auto; touch-action: auto;"></iframe></div></body></html>
