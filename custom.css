@@ -1,0 +1,62 @@
+.layer {
+    background: #060;
+    border-radius: 3px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #369;
+}
+
+a {
+    color: #3f5c79;
+}
+
+.th-cr,
+.th:last-child {
+    padding-right: 8px !important;
+    border-top-right-radius: 3px;
+}
+
+.th-cl,
+.th-cr,
+.th {
+    background: #060;
+}
+
+#view_by > li > a:hover {
+    text-decoration: none;
+}
+
+.actions a:hover {
+    background-color: #FFF;
+    color: #369;
+}
+
+.over {
+    background-color: #ccc;
+    color: #4c4c4c;
+}
+
+.over a,
+.over td {
+    color: #3f5c79 !important;
+    background-color: #ccc;
+}
+
+a.button {
+    border-radius: 5px;
+    background: #e35919;
+}
+
+a.button:hover,
+a.button:focus {
+    box-shadow: 0 0 0px #0c8cc4;
+    color: #fff;
+    background: #d24819;
+}
+
+.modal-page > .modalBar > .cancel:hover {
+    box-shadow: 0 0 1px #aaaaaa;
+    color: #aaa;
+}
