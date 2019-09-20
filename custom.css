@@ -1,5 +1,5 @@
 .layer {
-    background: #060;
+    background: #050;
     border-radius: 3px;
 }
 
@@ -21,7 +21,7 @@ a {
 .th-cl,
 .th-cr,
 .th {
-    background: #060;
+    background: #050;
 }
 
 #view_by > li > a:hover {
