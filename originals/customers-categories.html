@@ -1,0 +1,1485 @@
+<!DOCTYPE html><html lang="es"><head>
+
+  <meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<meta name="robots" content="noindex">
+
+<meta name="googlebot" content="noindex">
+
+  
+<meta name="csrf-token" content="8rZQmLn2fp5xA3JVCRUBB1ayCVhbgzL02nJMoHZd" id="_token">
+
+
+  <title>myabakus-&gt;customers</title>
+
+  
+<script type="text/javascript">Date.FORMAT='%d/%m/%Y';Date.TODAY='17/04/2020';Number.FORMAT='.';Number.DECIMALS=2;</script>
+
+
+  
+<link href="http://www.myabakus.org/css/app/contacts.css" rel="stylesheet" type="text/css">
+
+
+<style type="text/css"></style><link rel="stylesheet" href="custom.css"></head>
+
+<body style="visibility:hidden">
+
+  <div id="app" class="macOsx app-fixed">
+
+    <div id="header">
+
+      
+      <div class="header-content">
+
+        <div class="header-group">
+  <div class="header-text">
+        <span class="header-company text-ellipsis">OLCOMER</span>
+    <svg class="header-ico" id="help"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#help"></use></svg>
+
+<div id="select-help" class="custom-select" style="display: none;">
+    <ul class="select-content">
+                    <li class="option trackDemo" value="5">Empresa demo</li>
+        
+        <li class="option" value="4">Guía de Arranque</li>
+
+        <li class="option" value="2">Video Tutoriales</li>
+
+        <li class="option" value="3">Preguntas</li>
+
+        
+        <li class="option" value="1">Contáctenos</li>
+
+            </ul>
+</div>
+  </div>
+</div>
+
+<div class="header-group">
+  <div class="header-text">
+    <svg class="menu-ico" id="menu_ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#menu"></use></svg>
+    <div class="header-menu"><a href="http://www.myabakus.org/app/dashboard">Inicio</a>     <span class="header-bread">&gt;</span> Clientes    </div>
+  </div>
+  <div class="header-text">
+    <a class="header-local" id="local_switch" data-current="10">CUC BODEGA</a>
+<div id="select-local_switch" class="custom-select" style="display: none; min-width: 100px">
+  <ul class="select-content">
+  </ul>
+</div>
+<a id="perfil" class="header-user" href="http://www.myabakus.org/app/users/8741/quick_edit">CAMILO</a><svg class="header-ico" id="user"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#user"></use></svg>
+<div id="select-perfil" class="custom-select" style="display: none; min-width: 100px">
+    <ul class="select-content">
+                <li class="option" value="1">Perfil</li>
+                        <li class="option" value="2">Configuración</li>
+                <li class="option" value="3">Salir</li>
+    </ul>
+</div>
+  </div>
+</div>
+
+      </div>
+
+      <div id="menu">
+
+
+  <div class="menu-group">
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Clientes</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/income" class="menu-link link-child">Ingresos</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/income/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/income_payments" class="menu-link link-child">Pagos</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/income_payments/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/income_quotes" class="menu-link link-child">Cotizaciones</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/income_quotes/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/customers" class="menu-link link-child                menu-active">Lista</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/customers/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+          </ul>
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Proveedores</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/expense" class="menu-link link-child">Gastos</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/expense/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/expense_payments" class="menu-link link-child">Pagos</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/expense_payments/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/suppliers" class="menu-link link-child">Lista</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/suppliers/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+          </ul>
+
+    
+  </div>
+
+
+  <div class="menu-group">
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Efectivo</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/cash" class="menu-link link-child">Saldos</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/cash_transactions" class="menu-link link-child">Transacciones</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/cash_adjustments" class="menu-link link-child">Ajustes</a>
+                        </li>
+          </ul>
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Inventario</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/inventory" class="menu-link link-child">Cantidades</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/inventory_low" class="menu-link link-child">Bajos</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/inventory_adjustments" class="menu-link link-child">Ajustes</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/inventory_transfers" class="menu-link link-child">Transferencias</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/dispatch" class="menu-link link-child">Despacho</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/productions" class="menu-link link-child">Producción</a>
+                        </li>
+          </ul>
+
+    
+  </div>
+
+
+  <div class="menu-group">
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Ítems</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/items" class="menu-link link-child">Lista</a>
+                    <a class="header-new" href="http://www.myabakus.org/app/items/new"><svg class="header-new-ico"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/app/icons.svg#plus-circle"></use></svg></a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/items_prices" class="menu-link link-child">Precios</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/items_suppliers" class="menu-link link-child">Proveedores</a>
+                        </li>
+          </ul>
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Impuestos</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/taxes" class="menu-link link-child">Saldos</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/taxes_payments" class="menu-link link-child">Pagos</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/taxes_expenses" class="menu-link link-child">Gastos</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/taxes_adjustments" class="menu-link link-child">Ajustes</a>
+                        </li>
+          </ul>
+
+    
+  </div>
+
+
+  <div class="menu-group">
+
+        <ul class="menu-parent">
+              <li class="menu-child">
+                  <a class="menu-link">Reportes</a>
+              </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/income_reports" class="menu-link link-child">Ingresos</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/receivable_reports" class="menu-link link-child">Por cobrar</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/expense_reports" class="menu-link link-child">Gastos</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/payable_reports" class="menu-link link-child">Por pagar</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/profit_reports" class="menu-link link-child">Ganancia</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/cash_reports" class="menu-link link-child">Flujo de caja</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/inventory_reports" class="menu-link link-child">Inventario</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/reports/taxes" class="menu-link link-child">Impuestos</a>
+                        </li>
+              <li class="menu-child">
+                  <a href="http://www.myabakus.org/app/commissions" class="menu-link link-child">Comisiones</a>
+                        </li>
+          </ul>
+
+    
+  </div>
+
+
+
+</div>
+
+    </div>
+
+    <div id="container">
+
+      <div id="body" class="">
+
+
+<div id="left">
+  <div class="layer">Encuentre un cliente ingresando su nombre</div>
+  <form action="http://www.myabakus.org/app/customers/find">
+    <div id="find">
+      <input name="name" id="name" value="" placeholder="Presione enter para buscar" autocomplete="off">
+      <a id="search_by" style="display: none">o   Buscar   por</a>
+      <span id="indicator" style="display: none;"></span>
+      <div id="win-search" class="wd-wrapper" style="display:none">
+        <div class="wd-body">
+          <div class="field">
+              <label>time_last_order</label>
+              <input name="time[value]" id="time_value"> <span class="select"><span class="ss">Día(s)</span>
+                  <select name="time[option]" id="time_option">                  <option value="1">Día(s)</option>                  <option value="7">Semana(s)</option>                  <option value="30">Mes(es)</option>                  <option value="360">Año(s)</option>                </select>
+              </span>
+          </div>
+          <div class="field">
+            <label>total_amount</label>
+            <input name="amount" id="amount">
+          </div>
+          <div class="field">
+            <label>Saldo</label>
+            <input name="balance" id="balance">
+          </div>
+          <div class="field">
+            <label>trans_count</label>
+            <input name="count" id="count">
+          </div>
+          <div class="save">
+            <a class="button">Buscar</a>
+          </div>
+        </div>
+      </div>
+
+        <div id="filter">
+    Clientes:
+    <a id="fire-status">Todos<span class="select-fire">&nbsp;</span></a>
+    <div id="select-status" class="custom-select" style="display: none;">
+      <ul class="select-content">
+              <li class="option            selected" value="0">Todos        </li>        <li class="option" value="B">Con saldo        </li>      </ul>
+    </div>
+    <input type="hidden" name="status_id" id="status_id" value="0">
+        <input type="hidden" name="location_id" id="location_id" value="0">
+            <input type="hidden" name="category_id" id="category_id" value="0">
+          <input type="hidden" name="seller_id" id="seller_id" value="">
+      </div>
+
+    </div>
+    <div id="output" class="table_wrapper"><table class="list" id="list">
+
+    <thead>
+
+      <tr>
+
+        <th class="th info"></th>
+
+        <th class="th name">Nombre</th>
+
+        <th class="th contact">Contacto</th>
+
+        <th class="th balance">Saldo</th>
+
+        <th class="th action"></th>
+
+      </tr>
+
+    </thead>
+
+    <tbody>
+    
+      <tr class="odd">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="" data-phone="3127165284" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/2040" title="-Cliente Erika lorena ramirez caicedo">-Cliente Erika lorena ra...</a>
+        </td>
+
+        <td class="td contact"></td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/2040/statement/2020/04">1.724,99</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" update="1" pay="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="even">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="micheldiazsantiago@gmail.com" data-phone="" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/1793" title="Ventas De Mostrador">Ventas De Mostrador</a>
+        </td>
+
+        <td class="td contact"></td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/1793/statement/2020/04">19.733,18</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" update="1" pay="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="odd">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="" data-phone="3208081351" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/1990" title="Carlos Fernandes Rodriguez">Carlos Fernandes Rodriguez</a>
+        </td>
+
+        <td class="td contact">charcuteria heyner</td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/1990/statement/2020/04">0,00</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" delete="1" update="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="even">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="" data-phone="313 3840148" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/2546" title="La hacienda SAS">La hacienda SAS</a>
+        </td>
+
+        <td class="td contact"></td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/2546/statement/2020/04">0,00</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" delete="1" update="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="odd">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="" data-phone="314 425 6318" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/2545" title="LUZ MILENA GARCIA CARVAJAL">LUZ MILENA GARCIA CARVAJAL</a>
+        </td>
+
+        <td class="td contact"></td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/2545/statement/2020/04">0,00</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" delete="1" update="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="even">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="vladimir_elles@hotmail.com" data-phone="" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/1794" title="Otros Clientes">Otros Clientes</a>
+        </td>
+
+        <td class="td contact"></td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/1794/statement/2020/04">13.499,36</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" update="1" pay="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="odd">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="tuiranmartin@gmail.com" data-phone="5874872 - 3209077008" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/1298" title="Cliente Martin tuiran">Cliente Martin tuiran</a>
+        </td>
+
+        <td class="td contact"></td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/1298/statement/2020/04">6.082,01</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" update="1" pay="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="even">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="" data-phone="320-2308307" data-mobil="316-5768192"></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/2078" title="Brian Mauricio Reyes Rodriguez">Brian Mauricio Reyes Rod...</a>
+        </td>
+
+        <td class="td contact">Charcuteria Santa Marta</td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/2078/statement/2020/04">0,00</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" delete="1" update="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="odd">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="" data-phone="3006371426---3152581410" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/923" title="Pablo Perez">Pablo Perez</a>
+        </td>
+
+        <td class="td contact">Charcuteria y Panaderia Los Gianos</td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/923/statement/2020/04">0,00</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" delete="1" update="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="even">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="" data-phone="5871606 - 3187828793" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/661" title="Oky Pan Panaderia">Oky Pan Panaderia</a>
+        </td>
+
+        <td class="td contact">Luz Marina Mora</td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/661/statement/2020/04">0,00</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" delete="1" update="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="odd">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="" data-phone="3002197479 Luci - 300-2197478" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/1377" title="Miguel Trujillo">Miguel Trujillo</a>
+        </td>
+
+        <td class="td contact">Auto Mercado Zenit</td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/1377/statement/2020/04">0,00</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" delete="1" update="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="even">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="" data-phone="5707435 - 3102149012" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/881" title="Tania Quiñones">Tania Quiñones</a>
+        </td>
+
+        <td class="td contact">La Economica Charcuteria</td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/881/statement/2020/04">0,00</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" delete="1" update="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="odd">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="" data-phone="3132810138" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/1846" title="Libardo Hormiga Mendez">Libardo Hormiga Mendez</a>
+        </td>
+
+        <td class="td contact"></td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/1846/statement/2020/04">0,00</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" delete="1" update="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="even">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="" data-phone="3166085522---3125114631" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/530" title="Israel Vargas">Israel Vargas</a>
+        </td>
+
+        <td class="td contact">Tienda Mixta la 9</td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/530/statement/2020/04">0,00</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" delete="1" update="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+      <tr class="odd">
+
+        <td class="td info">
+          <i class="icon-info" data-post_code="" data-email="" data-phone="310 8544343 patricia" data-mobil=""></i>
+        </td>
+
+        <td class="td name">
+          <a href="http://www.myabakus.org/app/customers/2056" title="Samaritans Purse">Samaritans Purse</a>
+        </td>
+
+        <td class="td contact"></td>
+
+        <td class="td balance">
+          <a href="http://www.myabakus.org/app/customers/2056/statement/2020/04">0,00</a>
+        </td>
+
+        <td class="td-action">
+
+          <a class="icon-action select-fire" delete="1" update="1"></a>
+
+        </td>
+
+      </tr>
+
+      
+    </tbody>
+
+  </table>
+        <div id="paginate">
+            <div class="pg-left">
+
+              <span>1689</span> Clientes
+            </div>            <div class="pg-right">                  <span>Primera página</span> | <a class="pg-next">Siguiente página</a>            </div>        </div>
+
+        <input type="hidden" name="pg" id="pg" value="0">
+        <input type="hidden" id="rows" value="15">        <input type="hidden" name="trows" value="1689"></div>
+  </form>
+</div>
+<div id="right">
+  <div class="layer">Acciones</div>
+  <ul class="actions">
+
+    <li>
+      <a id="new" href="http://www.myabakus.org/app/customers/new">Nuevo cliente      </a>
+    </li>
+
+    <li>
+      <a id="merge" href="http://www.myabakus.org/app/customers/merge/new">Fusionar dos clientes</a>
+    </li>
+
+    
+    <li>
+      <a id="category_link" href="http://www.myabakus.org/app/customer_categories">Administrar categorias</a>
+    </li>
+
+    
+    
+    <!--
+    Federico y sus ideas
+    <li>
+      <a href="/app/income_reports/by_customers"
+         id="income">Ver reporte de ingresos</a>
+    </li>
+
+    -->
+    
+    <li class="separator"></li>
+
+    <li>
+      <a id="print" href="http://www.myabakus.org/app/customers/print">Versión para imprimir</a>
+    </li>
+
+    <li>
+      <a id="export" href="http://www.myabakus.org/app/customers/export">Exportar clientes</a>
+    </li>
+
+    
+  </ul>
+    <div class="layer">Mostrando</div>
+  <ul class="view-by" id="view_by">
+        <li>
+      <a id="fire-location">Todos los locales<span class="select-fire">&nbsp;</span></a>
+      <div id="select-location" class="custom-select" style="display: none;">
+        <ul class="select-content">          <li class="option              selected" value="0">Todos los locales          </li>          <li class="option" value="10">CUC BODEGA          </li>        </ul>
+      </div>
+    </li>
+    
+        <li>
+        <a id="fire-category">Todas las categorías<span class="select-fire">&nbsp;</span></a>
+        <div id="select-category" class="custom-select" style="display: none;">
+          <ul class="select-content">
+                      <li class="option                selected" value="0">Todas las categorías            </li>            <li class="option" value="-1">Sin categoría            </li>            <li class="option" value="18">Abastos            </li>            <li class="option" value="28">Ambulantes            </li>            <li class="option" value="40">Asociación            </li>            <li class="option" value="25">Cafeterías            </li>            <li class="option" value="60">Casino            </li>            <li class="option" value="41">Certigases            </li>            <li class="option" value="1">Charcuterías            </li>            <li class="option" value="14">Clinicas            </li>            <li class="option" value="19">Comidas Rapidas            </li>            <li class="option" value="43">Condominio            </li>            <li class="option" value="49">confiteria            </li>            <li class="option" value="44">Constructora            </li>            <li class="option" value="45">Coorporacion            </li>            <li class="option" value="22">Discotecas y Bares            </li>            <li class="option" value="34">Distribuidores            </li>            <li class="option" value="38">Droguerias            </li>            <li class="option" value="61">Empleado            </li>            <li class="option" value="26">Empresa            </li>            <li class="option" value="27">Ferreterías            </li>            <li class="option" value="23">Heladerias            </li>            <li class="option" value="15">Hoteles y Moteles            </li>            <li class="option" value="50">Iglesias            </li>            <li class="option" value="35">jugos y pasteles            </li>            <li class="option" value="21">Limpieza y Aseo.            </li>            <li class="option" value="37">Mostrador            </li>            <li class="option" value="2">Panaderias            </li>            <li class="option" value="47">pescaderia            </li>            <li class="option" value="5">Plastiqueros            </li>            <li class="option" value="4">Restaurantes            </li>            <li class="option" value="12">Supermercados            </li>            <li class="option" value="13">Tiendas            </li>          </ul>
+        </div>
+    </li>
+    
+    
+<li>
+    <a id="fire-seller">Todos los vendedores<span class="select-fire">&nbsp;</span></a>
+    <div id="select-seller" class="custom-select" style="display: none;">
+      <ul class="select-content">
+              <li class="option            selected" value="0">Todos los vendedores        </li>        <li class="option" value="-1">Sin vendedor        </li>        <li class="option" value="808">Martin Tuiran.        </li>        <li class="option" value="809">Vladimir Barajas        </li>        <li class="option" value="810">Sandra Milena        </li>        <li class="option" value="811">Henderson Barrera        </li>        <li class="option" value="921">Cristian Grisales        </li>        <li class="option" value="1183">Liceth Ortiz        </li>        <li class="option" value="1258">Sergio Andres        </li>      </ul>
+    </div>
+</li>
+
+
+  </ul>
+  </div>
+
+</div>
+
+    </div>
+
+  </div>
+
+  
+
+  
+<script type="text/javascript" src="http://www.myabakus.org/js/app/customers.js"></script>
+
+
+
+
+
+<div id="modal-page-1587152968146" class="modal-page" style=""><div class="modalBar" style="width: 648px;">
+
+  <span class="modalBarTitle">Administrar categorias</span>
+
+  <a class="cancel">Cancelar</a>
+
+</div>
+
+<form id="add-new-category" method="post" action="http://www.myabakus.org/app/customer_categories" class="modalForm" autocomplete="off">
+
+
+  <div class="modalFieldset fieldNew">
+
+    <div class="modalField fieldAuto">
+
+        <input id="category-new" class="modalInput">
+
+    </div>
+
+    <div class="modalField">
+
+        <a class="button" id="category-save">Nueva</a>
+
+    </div>
+
+</div>
+
+  <div id="custom">
+
+      
+  <table>
+
+    <tbody>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/18">Abastos</a>
+        </td>
+
+        <td class="count">
+          96 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/28">Ambulantes</a>
+        </td>
+
+        <td class="count">
+          1 Cliente        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/40">Asociación</a>
+        </td>
+
+        <td class="count">
+          10 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/25">Cafeterías</a>
+        </td>
+
+        <td class="count">
+          33 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/60">Casino</a>
+        </td>
+
+        <td class="count">
+          2 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/41">Certigases</a>
+        </td>
+
+        <td class="count">
+          1 Cliente        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/1">Charcuterías</a>
+        </td>
+
+        <td class="count">
+          433 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/14">Clinicas</a>
+        </td>
+
+        <td class="count">
+          6 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/19">Comidas Rapidas</a>
+        </td>
+
+        <td class="count">
+          52 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/43">Condominio</a>
+        </td>
+
+        <td class="count">
+          3 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/49">confiteria</a>
+        </td>
+
+        <td class="count">
+          1 Cliente        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/44">Constructora</a>
+        </td>
+
+        <td class="count">
+          4 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/45">Coorporacion</a>
+        </td>
+
+        <td class="count">
+          5 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/22">Discotecas y Bares</a>
+        </td>
+
+        <td class="count">
+          26 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/34">Distribuidores</a>
+        </td>
+
+        <td class="count">
+          17 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/38">Droguerias</a>
+        </td>
+
+        <td class="count">
+          5 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/61">Empleado</a>
+        </td>
+
+        <td class="count">
+          13 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/26">Empresa</a>
+        </td>
+
+        <td class="count">
+          15 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/27">Ferreterías</a>
+        </td>
+
+        <td class="count">
+          4 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/23">Heladerias</a>
+        </td>
+
+        <td class="count">
+          1 Cliente        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/15">Hoteles y Moteles</a>
+        </td>
+
+        <td class="count">
+          6 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/50">Iglesias</a>
+        </td>
+
+        <td class="count">
+          9 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/35">jugos y pasteles</a>
+        </td>
+
+        <td class="count">
+          5 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/21">Limpieza y Aseo.</a>
+        </td>
+
+        <td class="count">
+          6 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/37">Mostrador</a>
+        </td>
+
+        <td class="count">
+          54 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/2">Panaderias</a>
+        </td>
+
+        <td class="count">
+          60 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/47">pescaderia</a>
+        </td>
+
+        <td class="count">
+          2 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/5">Plastiqueros</a>
+        </td>
+
+        <td class="count">
+          119 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/4">Restaurantes</a>
+        </td>
+
+        <td class="count">
+          201 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/12">Supermercados</a>
+        </td>
+
+        <td class="count">
+          197 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+      <tr>
+
+        <td class="section-col">
+          <i class="icon icon-chevron-right"></i>
+        </td>
+
+        <td class="section-col section-desc">
+          <a class="edit" href="http://www.myabakus.org/app/customer_categories/13">Tiendas</a>
+        </td>
+
+        <td class="count">
+          118 Clientes        </td>
+
+        <td class="section-col">
+          <i class="icon-del"></i>
+        </td>
+
+      </tr>
+
+      
+    </tbody>
+
+  </table>
+
+  
+  </div>
+
+</form>
+
+<div id="win-category" class="wd-wrapper" style="display: none;">
+  <form class="wd-body" method="post" action="http://www.myabakus.org/app/customer_categories">
+    <div class="field">
+      <label class="label required">Nombre</label>
+      <input id="category_name" name="category[name]" maxlength="255">
+    </div>
+    <div class="save">
+      <a class="button">Guardar</a>
+    </div>
+  </form>
+</div>
+<div class="modalFooter" style="width: 748px; margin-left: -50px;"></div><div class="auto_complete" id="auto_complete" style="display: none;"></div></div><div id="page-overlay" class="page-overlay"></div></body></html>

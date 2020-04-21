@@ -1,5 +1,5 @@
 .layer {
-    background: #050;
+    background: #060;
     border-radius: 3px;
 }
 
@@ -59,4 +59,26 @@ a.button:focus {
 .modal-page > .modalBar > .cancel:hover {
     box-shadow: 0 0 1px #aaaaaa;
     color: #aaa;
+}
+
+a.tab.cur {
+    background: #050;
+}
+
+.demo {
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.header-warn {
+    font-family: Verdana;
+    font-size: 13px;
+}
+
+a.amount {
+    text-decoration: none;
+}
+
+a.amount:hover {
+    text-decoration: underline;
 }
